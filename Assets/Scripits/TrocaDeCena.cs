@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TrocaDeCena : MonoBehaviour
 {
@@ -12,5 +13,25 @@ public class TrocaDeCena : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void play()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
+    public void Dialogo()
+    {
+        SceneManager.LoadScene("Dialogo");
+    }
+
+    public void Fase()
+    {
+        SceneManager.LoadScene("Fase");
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
