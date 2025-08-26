@@ -8,6 +8,7 @@ public class Tempo : MonoBehaviour
     [SerializeField] private GameObject telaDerrota;
     private bool jogoAtivo = true;
     public float tempoTotal = 120f;
+    private bool Tag = false;
 
 
     void Start()
@@ -30,6 +31,8 @@ public class Tempo : MonoBehaviour
             {
                 Derrota();
             }
+           
+            
         }
     }
 

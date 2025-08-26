@@ -34,4 +34,6 @@ public class TrocaDeCena : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+
 }
