@@ -2056,7 +2056,7 @@ MonoBehaviour:
   texto: {fileID: 1178303526}
   mensagem: Muito obrigado por salva o meu pato. Na proxima nao vou tirar os olhos
     dele, voceh salvou o meu dia!!!
-  velocidade: 0.1
+  velocidade: 0.03
 --- !u!4 &1030999249
 Transform:
   m_ObjectHideFlags: 0

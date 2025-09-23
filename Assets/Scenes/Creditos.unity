@@ -665,6 +665,7 @@ GameObject:
   - component: {fileID: 1236150766}
   - component: {fileID: 1236150765}
   - component: {fileID: 1236150764}
+  - component: {fileID: 1236150767}
   m_Layer: 5
   m_Name: Voltar
   m_TagString: Untagged
@@ -735,7 +736,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1236150765}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1236150767}
+        m_TargetAssemblyTypeName: TrocaDeCena, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1236150765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,6 +787,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236150762}
   m_CullTransparentMesh: 1
+--- !u!114 &1236150767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236150762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f30eabccc80224c9cb5c636179ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1503020987
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,8 +970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: 0}
-  m_SizeDelta: {x: 1359.2235, y: 730.1348}
+  m_AnchoredPosition: {x: 21, y: 13.283997}
+  m_SizeDelta: {x: 1359.2235, y: 839.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851879039
 MonoBehaviour:
@@ -968,9 +993,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cr\xE9ditos\r\nDesenvolvimento: Luid (Luiz Gladstone)\r\nMapa: Szadi Atr.;
-    Luid\r\nPrograma\xE7\xE3o: Luid\r\nSonoplastia: Luid\r\nM\xFAsicas: GeoffreyBurch,
-    MoodMode, AGS_Project, Kaden_Cook\nPato: Caz cria jogos"
+  m_text: 'Creditos
+
+    Desenvolvimento: Luid (Luiz Gladstone)
+
+    Mapa: Szadi
+    Atr.; Luid
+
+    Programacao: Luid
+
+    Sonoplastia: Luid
+
+    Musicas: GeoffreyBurch,
+    MoodMode, AGS_Project, Kaden_Cook
+
+    Pato: Caz cria jogos
+
+    Suporte: Davyh,
+    Enzo Romulo'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f4825a0244608ab4698383dbc0492dea, type: 2}
   m_sharedMaterial: {fileID: -2242641161548360326, guid: f4825a0244608ab4698383dbc0492dea, type: 2}
@@ -997,8 +1037,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
